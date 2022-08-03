@@ -85,7 +85,7 @@ export async function getStaticProps() {
         id: meetup._id.toString(),
       })), // they would be prepared then set for HomePage(props)
     },
-    revalidate: 60, // every 60 seconds
+    revalidate: 1, // every 60 seconds
   };
 }
 export default HomePage;
